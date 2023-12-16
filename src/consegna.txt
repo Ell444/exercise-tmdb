@@ -15,3 +15,21 @@ Bonus:
 - Nel componente SearchBar, aggiungete una select che fa scegliere all'utente tra 'Movie', 'TV Series', 'Person'.
 All' onSearch, passate quindi DUE parametri (il value dell'input, come nell'esercizio normale, e anche il valore scelto al select).
 Quindi, effettuare una fetch a una chiamata diversa in base a che l'utente voglia cercare un film, una serie TV, o una persona.
+
+
+
+Esempio oggetto:
+id: 466420
+original_language: "en"
+original_title: "Killers of the Flower Moon"
+overview: "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery."
+popularity: 1414.987
+poster_path: "/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg"
+release_date: "2023-10-18"
+title: "Killers of the Flower Moon"
+video: false
+vote_average: 7.64
+vote_count: 1400
+
+url per le immagini:
+"https://image.tmdb.org/t/p/w500/"
