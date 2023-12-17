@@ -1,0 +1,25 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: .3rem;
+}
+
+input {
+    font-size: inherit;
+    color: white;
+    background-color: rgb(143, 138, 138);
+    padding: .1rem;
+    border-radius: .5rem;
+    border: none;
+
+}
+.search-btn {
+    color: white;
+    font-size: inherit;
+    background-color: rgb(143, 138, 138);
+    padding: .1rem;
+    border: none;
+    border-radius: .5rem;
+}

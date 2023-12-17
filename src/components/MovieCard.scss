@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .movies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2;
+    gap: .5rem;
+    
+    .movie-cards{
+      display: grid;
+      gap: .5rem;
+      padding: 0.5rem; 
+      background: rgb(10,23,88);
+      background: radial-gradient(circle, rgba(10,23,88,1) 34%, rgba(2,2,3,1) 100%);
+
+      .movie-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+      }
+      figure {
+        height: 250px;
+        img {
+           height: 100%;
+           width: 100%;
+           object-fit: contain;
+        }
+      }
+      .movie-overview {
+        font-size: 0.80rem;
+        text-transform: italic;
+        color: white;
+      }
+      .vote{
+        font-size: 0.70rem;
+        color: white;
+      }
+    }
+  }
