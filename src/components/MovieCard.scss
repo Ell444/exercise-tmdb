@@ -11,10 +11,9 @@
   .movies {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 2;
     gap: .5rem;
     
-    .movie-cards{
+    .movie-card{
       display: grid;
       gap: .5rem;
       padding: 0.5rem; 

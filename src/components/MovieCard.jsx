@@ -3,8 +3,8 @@ import { BsFillStarFill } from "react-icons/bs";
 
 export default ({ title, overview, vote, poster }) => {
     return (<>
-        {<div className="movies">
-            <div className="movie-cards">
+        {
+            <div className="movie-card">
                 <figure className="img-container">
                     <img src={poster} alt={`${title} poster`} />
                 </figure>
@@ -12,6 +12,6 @@ export default ({ title, overview, vote, poster }) => {
                 <p className="movie-overview">{overview}</p>
                 <p className="vote"> <BsFillStarFill /> {vote}</p>
             </div>
-        </div>}
+        }
     </>)
 }

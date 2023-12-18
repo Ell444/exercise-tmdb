@@ -33,3 +33,6 @@ vote_count: 1400
 
 url per le immagini:
 "https://image.tmdb.org/t/p/w500/"
+
+url 
+https://api.themoviedb.org/3/search/movie
