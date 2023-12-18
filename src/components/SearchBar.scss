@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    gap: .3rem;
+    gap: .5rem;
 }
 
 input {
@@ -15,7 +15,7 @@ input {
     border: none;
 
 }
-.search-btn {
+.search-btn, select {
     color: white;
     font-size: inherit;
     background-color: rgb(143, 138, 138);
